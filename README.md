@@ -1,18 +1,22 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
  
-# Programação Web - Laboratório 3: inclusão de formulários e imagens SVG no meu website  
+# Programação Web - Laboratório 3: <br>*inclusão de formulários e imagens SVG no meu website* 
 
 ## Objetivo
 * Neste laboratório estenderá o website criado no Laboratório 2, incluindo formulários e imagens SVG.
 * Este laboratório deverá ser concluido antes da sua aula prática da semana de 8 de março. Este será avaliado nessa aula. 
 
+* Este laboratório deverá ser concluido antes da sua aula prática da semana de 14.3, onde será avaliado. 
+
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. Contém todos os detalhes para a criação do website. 
-* Se tiver alguma dúvida, recorra ao [Moodle](https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119), onde no Programa existem links para os slides de cada tópico, contendo todos os conhecimentos que precisa para realizar este laboratório.
+* Se tiver alguma dúvida, recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
 
 ## Pré-requisitos
-* Deverá ter feito o [lab2](https://github.com/ULHT-PW-2020-21/pw-lab2).
+* Deverá ter o Pycharm instalado para editar o código HTML de forma fácil.
+* Deverá ter feito os [lab1](https://github.com/ULHT-PW/pw-lab1) e [lab2](https://github.com/ULHT-PW/pw-lab2). Caso não tenha feito, faça antes de fazer este laboratório.
+* Deverá ter instalado o git no seu computador.
 
 # 1. Estruturação do repositório de laboratórios
 1. Clone  (descarregue uma cópia) o seu repositório no seu computador local da seguinte forma:
