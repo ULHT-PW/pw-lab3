@@ -1,11 +1,11 @@
-**UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
+**PROGRAMAÇÃO WEB - aplicações web por perfeccionistas criativos (ULHT)**
  
-# Programação Web - Laboratório 3: <br>*Website com Quizz 🔘 e CSS 🖌* 
+# Lab 3: *Website com Quizz 🔘 e CSS 🖌* 
 
 ## Objetivos
 * Estender o website criado no Laboratório 2 com mais algumas páginas.
-* Explorar os vários dipos de entrada de formulário através da construção de um quizz sobre a cidade que escolheu.
-* Experimentar todos os seletores CSS.
+* Explorar os vários tipos de entrada de formulário através da construção de um quizz sobre a cidade que escolheu.
+* Praticar CSS, experimentando todos os seletores CSS aprendidos. O objetivo é conhecer os comandos de formatação, não fazer um website com super UX design! Isso aprenderá na disciplina Interação Humano Máquina.
 
 
 ## Recomendações
@@ -60,29 +60,40 @@ pw-labs-nomeapelido-numero
 # 2. Nova estrutura das páginas
 
 1. Todas as suas páginas HTML deverão ser reestruturadas para integrar com elementos semânticos HTML5. No `body` deverá ter:
+
     1. dentro de um elemento `header` deverá incluir o cabeçalho, com o titulo do site e fotografia 
-    2. o menu de navegação deverá estar dentro dum elemento `nav`
-    3. o conteúdo dentro de um elemento `main`. Dentro do `main`, use elementos `section` caso existam várias secções (cada elemento `section` deverá ter dentro um elemento `h1` ou outro, e parágrafos `p`). Por exemplo, na página multimedia.html, utilize elementos `section` para dividir os vários conteúdos que tem (fotos, video e poema).
-    4. um novo elemento `footer` com o seu nome, numero, universidade, e ano, tudo numa linha.
+    
+    3. o menu de navegação deverá estar dentro dum elemento `nav`
+    
+    5. o conteúdo dentro de um elemento `main`. Dentro do `main`, use elementos `section` caso existam várias secções (cada elemento `section` deverá ter dentro um elemento `h1` ou outro, e parágrafos `p`). Por exemplo, na página multimedia.html, utilize elementos `section` para dividir os vários conteúdos que tem (fotos, video e poema).
+    
+    7. um novo elemento `footer` com o seu nome, numero, universidade, e ano, tudo numa linha.
+    
 3. Nas imagens, vídeos e mapa, recorra a elemento `figure` e `figcaption`, tendo neste ultimo um elemento `details` para mostrar/esconder mais detalhes sobre a imagem.
 
 Se visualizar no seu navegador as páginas HTML, verá que estes elementos nada mudaram em termos visuais. No entanto, estes permitirão aplicar estilos. Neste primeiro laboratório aplicará a esta estrutura estilizações simples. No entanto, no lab4 esta estruturação com elementos semânticos permitirá criar layouts dinâmicos, configurados pelo CSS.
 
 
-# 3. Página com Quizz
+# 3. Página com Quizz 🤓
 
 1. Crie uma nova página HTML `quizz.html` que tenha o mesmo cabeçalho das restantes.
+
+1. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). Nesta página irá experimentar todos os tipos de entrada que foram falados na aula. Implemente os passos a seguir descritos.
+
 1. Insira um elemento h3 com a palavra Quizz.
-1. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). Nesta página irá experimentar todos os tipos de entrada que foram falados na aula.
 
-1. Crie dentro do form um elemento fieldset, coma a legenda "Quizz sobre <cidade>"
+3. insira um parágrafo com um texto introdutório a explicar que nesta página será feito um quizz para testar se o utilizador conhece bem a cidade que a página apresenta.
 
-1. Deverá ter uma primeira área (elemento `fieldset`) para inserção de dados pessoais:
+1. Crie dentro do form um elemento `fieldset`, coma uma legenda (por exemplo, "Quizz sobre «cidade»", "City quizz", "Mostre que conhece «cidade»"
+
+1. Crie outro elemento `fieldset` para inserção de dados pessoais, com o titulo "info" (`fieldset` dentro de `fieldset`, sim 🤩!):
    * Nome
    * apelido
    * email (input de tipo email)
 
-1. Crie um quiz com perguntas sobre a cidade, explorando de forma imaginativa elementos input.
+1. Crie outro elemento `fieldset` para inserção das perguntas do quizz, com título "perguntas":
+
+1. Crie um quiz com perguntas sobre a cidade, explorando de forma imaginativa elementos input. 
     * Deverá utilizar cada um dos seguintes tipos (atributo `type`):
         * `text`
         * `radio`
@@ -119,7 +130,7 @@ Se visualizar no seu navegador as páginas HTML, verá que estes elementos nada 
    * Quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta.
 
  
-# 4. Página HTML5 & CSS
+# 4. Página HTML5 & CSS 😎
 
 1. Crie uma nova página HTML intitulada `html5-css.html` que tenha o mesmo cabeçalho das restantes.
  
@@ -137,7 +148,7 @@ Se visualizar no seu navegador as páginas HTML, verá que estes elementos nada 
     2. uma tabela com todos os tipos de seletores CSS, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou. 
     3. uma tabela com todos os combinadores de seletores apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.
 
-# 5. Estilização com CSS
+# 5. Estilização com CSS 🖌
 
 Para a definição dos estilos será usado um único ficheiro estilos.css, que guardará todos os estilos usados nas páginas. Em cada ficheiro HTML deverá existir um link para este ficheiro, de modo a permitir usar os estilos.
 
@@ -154,7 +165,7 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
     4. especifique no ficheiro CSS que quer usar essa fonte em todo o lado, usando o seletor universal * e a regra CSS para especificar a familia da fonte, por exemplo 
 `* {font-family: 'Syne Mono', monospace;} `
  
-6. Configure a cor de background do seu website, assim como de alguns elementos HTML5 usando seletores adequados. 
+6. Configure a cor de background do seu website, assim como de alguns elementos HTML5 usando seletores adequados. em particular, na pagina do Quizz, use cores diferentes para o fundo de cada umdos `fieldsets`.
  
 7. Para os elementos do seu menu:
     * utilize selectores de pseudo-classe (`link`, `visited`, `hover`, `active`) para configurar cores para os links (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.4-css-e-seus-seletores.pdf) 27)
@@ -173,12 +184,7 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
  
 13. estilize as molduras (border) das imagens e iframes usando seletores, sem recorrer a classes.
  
- 
-# 6. Referências
 
-Quanto maior for o número de referências no seu website para outros websites, maior a relevância que o website ganhará assim como a visibilidade nos motores de busca. Coloque uma referência no final de um parágrafo de texto que tenha extraído de uma fonte online, assim como na legenda de uma fotografia (inclua como link o URL do site de onde extraíu a fotografia). Pode usar a notação `[1]` colocando um hiperlink para a página de onde foi extraída informação.
- 
- 
 # 7. Menu
 Garanta que o menu inclui hiperlinks para as 3 novas páginas criadas (semelhante a todas as páginas).
 
@@ -197,6 +203,6 @@ Garanta que o menu inclui hiperlinks para as 3 novas páginas criadas (semelhant
 4. Verifique que o seu website online funciona corretamente, em particular mostra todas as imagens e os hiperlinks funcionam devidamente.
 5. Garanta que preencheu o formulário do lab2, [form](https://forms.gle/d5sS3XtaHzRnfzQ87)
 
- # Fim
+ # Fim ☀
  
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
