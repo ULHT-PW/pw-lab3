@@ -1,4 +1,4 @@
-**PROGRAMAÇÃO WEB - aplicações web por perfeccionistas criativos (ULHT)**
+**PROGRAMAÇÃO WEB - aplicações web por perfeccionistas criativos**
  
 # Lab 3: *Website com Quizz 🔘 e CSS 🖌* 
 
