@@ -205,4 +205,4 @@ Garanta que o menu inclui hiperlinks para as 3 novas páginas criadas (semelhant
 
  # Fim ☀
  
-Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
+Esperamos que tenha gostado de aplicar os conhecimentos sobre formulários e CSS no seu website &#127760;!
