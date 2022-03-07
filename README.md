@@ -185,8 +185,8 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
 13. estilize as molduras (border) das imagens e iframes usando seletores, sem recorrer a classes.
  
 
-# 7. Menu
-Garanta que o menu inclui hiperlinks para as 3 novas páginas criadas (semelhante a todas as páginas).
+# 6. Menu
+Garanta que o menu inclui hiperlinks para as 2 novas páginas criadas (semelhante a todas as páginas).
 
 # 7. Submissão
 
